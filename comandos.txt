@@ -54,3 +54,7 @@ git blame <nome_arquivo>
 
 # Criar uma branch e ir para ela
 git checkout -b <nome>
+
+# Mover o HEAD para um commit
+git checkout <hash>
+
