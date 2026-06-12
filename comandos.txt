@@ -6,3 +6,12 @@ git status
 
 # Adicionar arquivos no stage
 git add <nome>
+
+# Salvar estado do repositório
+git commit -m "msg"
+
+# Restaurar mudanças no arquivo
+git restore <nome>
+
+# Remove arquivo do stage
+git restore --staged <nome>
