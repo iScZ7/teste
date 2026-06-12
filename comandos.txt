@@ -15,3 +15,14 @@ git restore <nome>
 
 # Remove arquivo do stage
 git restore --staged <nome>
+
+# Mostrar histórico do repositório
+git log
+git log --oneline
+
+# Mostrar alterações atuais
+git diff
+
+# Mostrar mudanças de um commit
+git show <hash>
+
