@@ -51,3 +51,6 @@ git branch -D <nome>(força)
 
 # Motrar quem alterou
 git blame <nome_arquivo>
+
+# Criar uma branch e ir para ela
+git checkout -b <nome>
