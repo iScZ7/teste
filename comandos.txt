@@ -6,6 +6,7 @@ git status
 
 # Adicionar arquivos no stage
 git add <nome>
+git add .(tudo)
 
 # Salvar estado do repositório
 git commit -m "msg"
@@ -46,3 +47,7 @@ git merge <nome>
 
 # Apagar uma branch
 git branch -d <nome>
+git branch -D <nome>(força)
+
+# Motrar quem alterou
+git blame <nome_arquivo>
