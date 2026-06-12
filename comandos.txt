@@ -10,6 +10,9 @@ git add <nome>
 # Salvar estado do repositório
 git commit -m "msg"
 
+# Adicionar e commitar somente arquivos monitorados
+git commit -am "msg"
+
 # Restaurar mudanças no arquivo
 git restore <nome>
 
