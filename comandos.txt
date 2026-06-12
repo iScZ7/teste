@@ -41,3 +41,8 @@ git branch <novo_nome>
 # Trocar de branch
 git switch <nome>
 
+# Juntar uma branch na outra
+git merge <nome>
+
+# Apagar uma branch
+git branch -d <nome>
