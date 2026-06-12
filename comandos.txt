@@ -1,5 +1,5 @@
 # Inicializar um repositório local (Pasta atual)
-git init .
+git init . #maluco no pedaço
 
 # Verifica estado atual do repositório
 git status
@@ -21,7 +21,7 @@ git restore <nome>
 git restore --staged <nome>
 
 # Mostrar histórico do repositório
-git log
+git log #maluco no pedaço
 git log --oneline
 
 # Mostrar alterações atuais
