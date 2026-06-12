@@ -58,3 +58,11 @@ git checkout -b <nome>
 # Mover o HEAD para um commit
 git checkout <hash>
 
+# Voltar para um commit específico (local)
+git reset <hash>
+git reset --soft <hash> (mantem o stage salvo)
+git reset --hard <hash> (apaga tudo)
+
+# Voltar para um commit específico sem apagar histórico(remoto)
+git revert <hash>
+
