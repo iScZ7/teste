@@ -1,0 +1,8 @@
+# Inicializar um repositório local (Pasta atual)
+git init .
+
+# Verifica estado atual do repositório
+git status
+
+# Adicionar arquivos no stage
+git add <nome>
