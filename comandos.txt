@@ -26,3 +26,15 @@ git diff
 # Mostrar mudanças de um commit
 git show <hash>
 
+# Listar as branch
+git branch
+
+# Renomear uma branch
+git branch -m <novo_nome>
+
+# Criar nova branch
+git branch <novo_nome>
+
+# Trocar de branch
+git switch <nome>
+
