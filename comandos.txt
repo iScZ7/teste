@@ -4,6 +4,25 @@ git init . #phil
 # Verifica estado atual do repositório
 git status
 
+# Clonar repositório
+git clone
+
+# Adicionar endereço remoto em um repositório local
+git remote add <url>
+
+# Verificar endereço remoto
+git remote -v
+
+# Enviar alterações e definir a upstream(remoto) com a branch local
+git push -u origin <nome_branch>
+
+# Enviar alterações para o github
+git push 
+git push origin <nome_branch>
+
+# Enviar alterações de uma branch local para uma branch remota
+git push origin <nome_branch_local> : <nome_branch_remota>
+
 # Adicionar arquivos no stage
 git add <nome>
 git add .(tudo)
