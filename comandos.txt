@@ -1,4 +1,5 @@
 #alteração feita na web
+#segunda mudança
 # Inicializar um repositório local (Pasta atual)
 git init . #phil
 
