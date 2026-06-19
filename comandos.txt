@@ -90,3 +90,9 @@ git reset --hard <hash> (apaga tudo)
 # Voltar para um commit específico sem apagar histórico(remoto)
 git revert <hash>
 
+#baixar as atualizações do repositório remoto, sem mesclar
+git fetch
+
+#baixar as atualizações do repositório remoto e mesclar
+git pull
+
